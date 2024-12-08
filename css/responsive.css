@@ -1,0 +1,263 @@
+/*-- responsive --*/
+
+@media screen and (max-width: 1300px) {
+  section {
+    padding-block: 5rem;
+  }
+  .container {
+    width: 800px;
+  }
+
+  h1 {
+    font-size: 6rem;
+  }
+  h2 {
+    font-size: 3rem;
+  }
+
+  #hero {
+    padding-block: 3rem 10rem;
+  }
+
+  #hero-box video {
+    width: 300px;
+    margin-bottom: -5rem;
+  }
+
+  #buy {
+    padding-bottom: 10rem;
+  }
+
+  #buy-box > div > video {
+    align-self: self-end;
+  }
+
+  #join-box img {
+    right: 2rem;
+    width: 320px;
+  }
+}
+
+/*-- 900px --*/
+
+@media screen and (max-width: 900px) {
+  section {
+    padding-block: 2rem;
+  }
+  .container {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 18vw;
+
+    margin-bottom: 1rem;
+  }
+  h2 {
+    font-size: 12vw;
+  }
+  h3 {
+    font-size: 10vw;
+  }
+  p,
+  li,
+  a,
+  button {
+    font-size: 1rem;
+  }
+  .btn-flex {
+    width: 100%;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .btn-flex a,
+  .btn-flex button {
+    width: 100%;
+  }
+
+  #navbar-box {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  #navbar-logo {
+    display: none;
+  }
+  #navbar-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  #navbar-links > li > a {
+    width: 3.5rem;
+  }
+
+  #hero {
+    height: unset;
+    padding-block: 2rem 8rem;
+  }
+  #hero-box {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+
+    margin-left: unset;
+  }
+
+  #hero-text {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+  }
+
+  #hero-text p {
+    font-size: 0.7rem;
+
+    text-wrap: balance;
+  }
+
+  #hero-box video {
+    position: relative;
+    z-index: -1;
+    width: 90%;
+    margin-bottom: -5rem;
+  }
+
+  #slogan {
+    margin-top: 0rem;
+  }
+
+  #about {
+    padding-block: 3rem;
+  }
+  #about-gifs {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: start;
+    align-items: start;
+  }
+  #about-gifs > div {
+    padding: 1rem;
+  }
+  #about-box {
+    padding: 2rem 1rem;
+    gap: 1rem;
+  }
+  #about-box h2 {
+    margin-bottom: 1rem;
+  }
+  #about-box .ca {
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .quote {
+    padding: 1rem;
+  }
+
+  #about-tweets {
+    flex-direction: column;
+  }
+  #about-tweets > div {
+    padding: 1rem;
+  }
+
+  .quote2 {
+    margin-top: 3rem;
+    padding: 1rem;
+  }
+
+  .ca-box {
+    margin-bottom: 3rem;
+    padding: 0.7rem 0.5rem 0.7rem 1rem;
+  }
+  .ca-flex {
+    font-size: 1.5rem;
+  }
+
+  .copy img {
+    height: 1.25rem;
+  }
+
+  #token-box {
+    grid-template-columns: 100%;
+    gap: 2rem;
+    margin-top: 0rem;
+  }
+  #token-box > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    text-align: start;
+    gap: 2rem;
+  }
+  #token-box > div img {
+    width: 5rem;
+    margin-top: unset;
+  }
+
+  #buy-box {
+    width: 100%;
+    padding: 2rem 1rem;
+  }
+  #buy-box > div {
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: 100%;
+    row-gap: 2rem;
+    column-gap: 2rem;
+    justify-content: start;
+    align-items: start;
+  }
+  #buy-box > div > p {
+    padding: 1rem;
+  }
+  #buy-box > div > h2 {
+    padding-top: 0;
+    text-align: center;
+
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+  #buy-box > div > video {
+    width: 100%;
+
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+
+  #join {
+    padding-top: 3rem;
+    background-color: var(--clr-bg-2);
+  }
+  #join-box {
+    flex-direction: column-reverse;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+  }
+  #join-box video {
+    width: 100%;
+  }
+
+  #footer-box p {
+    width: 100%;
+  }
+}
